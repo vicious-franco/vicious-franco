@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(148, 152, 156);
+    color:rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+h1,p{
+    text-align: center;
+    margin-top: 1em;
+}
+p{
+    margin-bottom: 2em;
+    font-weight: 30px;
+}
+
+form{
+    max-width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    
+}
+fieldset{
+    display: block;
+    text-align:  left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+label{
+    
+    display: block;
+}
+
+input{
+    display: block;
+    width: 30vw;
+    height: 1.5em;
+    border: none;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: rgba(214, 230, 244,0.4);
+}
+
+.set1{
+    border:none;
+    border-bottom: 2px solid white;
+    padding-bottom: 40px;
+}
+legend{
+    text-align: left;
+    margin-bottom: 15px;
+}
+/* Fieldset two */
+
+.set2{
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 88%;
+}
+
+.radio{
+    width: unset;
+   display: inline-block;
+   vertical-align: middle;
+   margin:7px 10px
+}
+
+.Account{
+width: unset;
+vertical-align: middle;
+margin:7px 10px
+}
+
+
+/* Fieldset3 */
+
+.set3{
+    text-align: left;
+    margin: 10px 0;
+    border: none;
+}
+
+.last{
+    margin: 10px 0;
+}
+
+.new{
+    margin-top: 10px;
+}
+
+/*  Parent */
+.parent{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(213, 221, 231, 0.4);
+    box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+button{
+    border: none;
+    background-color: rgba(0, 0, 0,0.4);
+    color: white;
+    border-radius: 15%;
+    box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.3);
+}

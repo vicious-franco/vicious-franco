@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your Self</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    <h1> Registration</h1>
+    <p>please fill out this form with the required information</p>      
+    
+    <form action="">
+        <fieldset class="parent">
+        <fieldset class="set1">
+            <label for="lab1" class="lab">Enter your First Name: <input type="text" id="lab1"> </label>
+            <label for="lab2" class="lab">Enter your Last Name: <input type="text" id="lab2"> </label>
+            <label for="lab3" class="lab">Enter your email: <input type="email" id="lab3"> </label>
+            <label for="lab4" class="lab">Create a New Password: <input type="password" id="lab4"> </label>
+        </fieldset>
+        
+      
+        <fieldset class="set2">
+            <legend> Account type (required)</legend> 
+            <label for="per" class="Account "> <input type="radio" id="per"  name="per-bus" class="radio" >Personal </label>
+            <label for="bus" class="Account "> <input type="radio" id="bus" name="per-bus" class="radio" >Business </label>
+        </fieldset>
+
+        <fieldset class="set3">
+            <label for="pic" class="last">upload a profile picture <input type="file" id="pic" class="new"> </label>
+            <label for="age" class="last">Input your age (years): <input type="age" id="age" > </label>
+            <label for="hear" class="last"> How did you hear about us </label>
+            <select name="select" id="choose">
+                <option value="none">(select one)</option>
+                <option value="news"> Freecodecamp News</option>
+                <option value="youtube"> Freecodecamp Youtube Channel</option>
+                <option value="forum"> Freecodecamp Forum</option>
+                <option value="Other"> Other</option>
+            </select>
+        </fieldset>
+        <button type="submit" value="submit"> submit</button>
+    </fieldset>
+       
+    </form>
+</body>
+</html>
